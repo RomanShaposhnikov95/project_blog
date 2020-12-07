@@ -1,0 +1,189 @@
+.header {
+    background: #630707;
+    border-bottom: 1px solid #4B0707;
+    .menu {
+        width: 100%;
+        padding: 22px 0 32px;
+        display: inline-flex;
+        justify-content: space-between;
+
+        .menu_box {
+            width: 705px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            .search_box {
+                position: relative;
+                .search {
+                    width: 421px;
+                    height: 40px;
+                    background-color: #DD1817;
+                    border-radius: 30px;
+                    padding: 9px 0 11px 17px;
+                    color: #FFFFFF;
+                    &::-webkit-input-placeholder { color: #ffff; }
+                    &::-moz-placeholder { color: #ffff; }
+                    cursor: pointer;
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 9px;
+                    right: 15px;
+                    width: 18px;
+                    height: 18px;
+                    color: #ffffff;
+                    background-image: url("../images/icons/loupe.svg");
+                    cursor: pointer;
+                }
+            }
+
+            .btn {
+                min-width: 100px;
+                height: 33px;
+                background-color: #DD1817;
+                border-radius: 50px;
+                color: #FFFFFF;
+                cursor: pointer;
+            }
+
+            .box {
+                display: inline-flex;
+                width: 120px;
+                justify-content: space-between;
+                align-items: center;
+                .language {
+                    color: #FFFFFF;
+                    cursor: pointer;
+                }
+
+                .basket {
+                    position: relative;
+                    cursor: pointer;
+                    .basket_num {
+                        position: absolute;
+                        font-family: 'SFProDisplay-Medium', sans-serif;
+                        font-weight: 500;
+                        color: white;
+                        font-size: 10px;
+                        line-height: 20px;
+                        width: 18px;
+                        height: 18px;
+                        background-color: #DD1817;
+                        border-radius: 58%;
+                        text-align: center;
+                        bottom: -10px;
+                        right: -10px;
+                        font-family: Roboto;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.header_submenu {
+    background: #630707;
+    .submenu {
+        width: 100%;
+        padding: 13px 0 14px;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .burger-box {
+            display: inline-flex;
+            align-items: center;
+        
+            .hamburger {
+                display: inline-flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                flex-shrink: 0;
+                width: 40px;
+                height: 40px;
+                margin-right: 19px;
+                background: #DD1817;
+                border-radius: 50%;
+            }
+
+            span {
+                display: block;
+                height: 2px;
+                width: 16px;
+                background-color: #FFFFFF;
+                margin-bottom: 5px;
+            }
+
+            .menu-title {
+                color: #FFFFFF;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+            }
+        }
+
+        .submenu_info {
+            display: inline-flex;
+            .shipping {
+                position: relative;
+                padding-right: 90px;
+                span {
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    color: #FFFFFF;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: bold;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: -40px;
+                    width: 34px;
+                    height: 27px;
+                    color: #ffffff;
+                    background-image: url("../images/icons/car.svg");
+                    cursor: pointer;
+                }
+            }
+
+            .time {
+                position: relative;
+                padding-right: 50px;
+                span {
+                    color: #FFFFFF;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    color: #FFFFFF;
+                    font-weight: bold;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                }
+
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: -40px;
+                    width: 27px;
+                    height: 27px;
+                    color: #ffffff;
+                    background-image: url("../images/icons/Ellipse.svg");
+                    cursor: pointer;
+                }
+            }
+
+
+        }
+    }
+}

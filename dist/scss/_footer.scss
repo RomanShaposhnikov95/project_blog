@@ -1,0 +1,91 @@
+.footer {
+    margin-top: 120px;
+    background-color: #630707;
+    padding: 72px 0 74px;
+
+    .content {
+        display: inline-flex;
+        justify-content: space-between;
+        .footer-box-card {
+            .card {
+                width: 140px;
+                margin-top: 24px;
+                display: inline-flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                img {
+                    margin-top: 10px;
+    
+                    &:nth-child(1) {
+                        margin-top: 0;
+                    }
+                    &:nth-child(2) {
+                        margin-top: 0;
+                    }
+                    &:nth-child(3) {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+
+        .info {
+            .email {
+                position: relative;
+                margin-top: 21px;
+                display: inline-flex;
+                input {
+                    width: 270px;
+                    height: 40px;
+                    border-radius: 30px 0 0 30px;
+                    background-color: #FFFFFF;
+                    color: #262626;
+                    padding: 14px 0 14px 50px;
+                }
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 14px;
+                    left: 25px;
+                    width: 18px;
+                    height: 12px;
+                    background-image: url("../images/icons/post.svg");
+                    cursor: pointer;
+                }
+                .email-btn {
+                    width: 139px;
+                    height: 40px;
+                    color:  #FFFFFF;
+                    background-color: #DD1817;
+                    border-radius: 0 30px 30px 0;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .footer-item {
+        margin-top: 14px;
+        .footer-link {
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #FFFFFF;
+        }
+    }
+
+    .footer-subtitle {
+        margin-top: 36px;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: #FFFFFF;
+    }
+}

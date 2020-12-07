@@ -1,0 +1,1 @@
+{"version":3,"sources":["additional.scss","additional2.scss"],"names":[],"mappings":"AAAA,KACI,UAAa,CACb,kBAAmB,CCDnB,cDCmB","file":"styles.min.css","sourcesContent":["body {\n    color: yellow;\n    background: #212121;\n}","body {\n    font-size: 50px;\n}"]}

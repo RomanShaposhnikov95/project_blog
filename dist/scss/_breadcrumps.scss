@@ -1,0 +1,35 @@
+.breadcrumps {
+    margin-top: 25px;
+    .breadcrumps_list-item {
+        display: inline-flex;
+        padding-right: 16px;
+        margin-right: 10px;
+        position: relative;
+
+        a {
+            color: #868686;;
+            font-family: Montserrat;
+            font-size: 14px;
+            border-bottom: 1px solid #868686;
+            font-weight: bold;
+        }
+
+        .active {
+            border: none;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            right: 0;
+            background-image: url("../images/icons/Back.svg");
+            width: 6px;
+            height: 9px;
+            bottom: 4px;
+        }
+
+        &:last-child::after {
+            display: none;
+        }
+    }
+}

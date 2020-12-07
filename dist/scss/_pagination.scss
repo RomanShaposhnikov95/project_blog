@@ -1,0 +1,27 @@
+.pagination {
+    margin-top: 33px;
+    .content {
+        .pagination-list {
+            width: 100%;
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: center;
+            .pagination-item {
+                padding: 0 20px;
+                a {
+                    font-family: Montserrat;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: bold;
+                    line-height: 22px;
+                    color: #7A7A7A;
+
+                }
+                .active {
+                    color: black;
+                    border-bottom: 2px solid #DD1817;
+                }
+            }
+        }
+    }
+}
